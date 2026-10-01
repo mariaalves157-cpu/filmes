@@ -1,0 +1,175 @@
+/* Código dos cards */
+
+.melhoresfilmes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #252a35;
+    padding: 40px 20px;
+}
+
+.filme-card{
+    background-color:#dcebe5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.60);
+    width: 280px;
+    overflow: hidden;
+    font-family: Arial, sans-serif
+}
+
+.filme-card img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    display: block;
+}
+
+.filme-info {
+    padding: 15px;
+}
+
+.filme-info h3 {
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    color: black;
+}
+
+.filme-info .genero{
+    font-size: 15px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.filme-info .sinopse{
+    font-size: 15px;
+    margin-bottom: 8px;
+    
+}
+/* Fim dos cards */
+
+/* header */
+header {
+    height: 135px;
+    border: solid 1px #252a35;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 25%;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #252a35;
+    font-size: 20px;
+}
+
+input {
+    width: 300px;
+}
+
+
+
+/* Primeira página dos meus filmes */
+
+/* PÁGINA DE DETALHES */
+
+.detalhes-filme {
+    max-width: 1100px;
+    margin: 60px auto;
+}
+
+
+/* APRESENTAÇÃO DO FILME */
+
+.apresentacao-filme {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+
+/* PÔSTER */
+
+.apresentacao-filme img {
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* INFORMAÇÕES */
+
+.informacoes-filme {
+    flex: 1;
+    max-width: 600px;
+}
+
+.informacoes-filme h1 {
+    font-size: 40px;
+    margin: 10px 0 20px;
+}
+
+.informacoes-filme p {
+    line-height: 1.6;
+}
+
+.informacoes-filme h2 {
+    margin-top: 30px;
+}
+
+
+/* GÊNERO */
+
+.genero {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+/* BOTÃO VOLTAR */
+
+.voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #005ca9;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/* TRAILER */
+
+.trailer {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.trailer h2 {
+    margin-bottom: 20px;
+}
+
+
+/* VÍDEO */
+
+.trailer iframe {
+    display: block;
+    width: 800px;
+    height: 450px;
+    max-width: 100%;
+    border: none;
+}
